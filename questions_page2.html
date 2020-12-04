@@ -1,103 +1,1487 @@
 
-<!doctype html>
-<html data-n-head-ssr>
-  <head >
-    <title>IT项目技术问答讨论平台_蓝桥讨论 - 蓝桥</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"><meta data-n-head="ssr" data-hid="keywords" name="keywords" content="蓝桥,IT培训,IT教育,编程,在线编程,Linux,Linux教程,Linux操作系统,
-        Python,Python教程,Python基础教程,Java,Java编程,C语言,大数据,Node.js,
-        Hadoop,PHP,Docker,Git,R,SQL,MongoDB,Redis,Swift,Spark,在线实验,
-        IT在线教育,编程入门,项目训练,项目实践,webIDE,软件开发"><meta data-n-head="ssr" data-hid="description" name="description" itemprop="description" content="蓝桥是国内领先的IT在线编程及在线实训学习平台，专业导师提供精选的实践项目，
-        创新的技术使得学习者无需配置繁琐的本地环境，随时在线流畅使用。以就业为导向，
-        提供编程、运维、测试、云计算、大数据、数据库等全面的IT技术动手实践环境，
-        提供Linux、Python、Java、C语言、Node.js、Hadoop、PHP、Docker、Git、
-        R、SQL、MongoDB、Redis、Swift、Spark等千门热门课程。"><link data-n-head="ssr" rel="shortcut icon" type="image/x-icon" href="/favicon.png"><link data-n-head="ssr" rel="search" type="application/opensearchdescription+xml" href="/search.xml" title="蓝桥"><link data-n-head="ssr" rel="stylesheet" href="https://static.shiyanlou.com/lanqiao/frontend/static/libs/font-awesome/4.7.0/css/font-awesome.min.css"><script data-n-head="ssr" src="https://static.shiyanlou.com/lanqiao/frontend/static/libs/jquery/jquery.1.12.3.min.js"></script><script data-n-head="ssr" src="https://static.shiyanlou.com/lanqiao/frontend/static/libs/lq-layer/layer.min.js"></script><script data-n-head="ssr" src="https://static.shiyanlou.com/lanqiao/frontend/static/libs/RongIMLib-3.0.6-dev.min.js"></script><script data-n-head="ssr" src="https://static.shiyanlou.com/lanqiao/frontend/static/libs/RongIM/qiniu.js"></script><script data-n-head="ssr" src="https://static.shiyanlou.com/lanqiao/frontend/static/libs/RongIM/upload.js"></script><script data-n-head="ssr" src="https://static.shiyanlou.com/lanqiao/frontend/static/libs/RongIM/init.js"></script><script data-n-head="ssr" src="https://hm.baidu.com/hm.js?56f68d0377761a87e16266ec3560ae56"></script><link rel="preload" href="https://static.shiyanlou.com/lanqiao/frontend/dist/9f2fda1.js" as="script"><link rel="preload" href="https://static.shiyanlou.com/lanqiao/frontend/dist/f1177e9.js" as="script"><link rel="preload" href="https://static.shiyanlou.com/lanqiao/frontend/dist/9a9df71.js" as="script"><link rel="preload" href="https://static.shiyanlou.com/lanqiao/frontend/dist/app.cec5af5.css" as="style"><link rel="preload" href="https://static.shiyanlou.com/lanqiao/frontend/dist/96ad62c.js" as="script"><link rel="preload" href="https://static.shiyanlou.com/lanqiao/frontend/dist/pages/questions/index.c854749.css" as="style"><link rel="preload" href="https://static.shiyanlou.com/lanqiao/frontend/dist/7f9ea00.js" as="script"><link rel="preload" href="https://static.shiyanlou.com/lanqiao/frontend/dist/pages/questions/index/pages/questions/topics/_id/index.5fe3aee.css" as="style"><link rel="preload" href="https://static.shiyanlou.com/lanqiao/frontend/dist/a7b0130.js" as="script"><link rel="stylesheet" href="https://static.shiyanlou.com/lanqiao/frontend/dist/app.cec5af5.css"><link rel="stylesheet" href="https://static.shiyanlou.com/lanqiao/frontend/dist/pages/questions/index.c854749.css"><link rel="stylesheet" href="https://static.shiyanlou.com/lanqiao/frontend/dist/pages/questions/index/pages/questions/topics/_id/index.5fe3aee.css">
-  </head>
-  <body >
-    <div data-server-rendered="true" id="__nuxt"><div id="__layout"><div data-v-1bf66665><!----> <nav class="navbar navbar page-header-navbar navbar-light navbar-expand-md" data-v-368c186e><div class="container" data-v-368c186e><button type="button" aria-label="Toggle navigation" class="navbar-toggler" data-v-368c186e><span class="navbar-toggler-icon"></span></button> <a href="/" class="navbar-brand nuxt-link-active" data-v-368c186e><img height="42" src="https://static.shiyanlou.com/lanqiao/frontend/dist/img/lanqiao-logo.5de12f2.svg" alt="蓝桥" class="logo" data-v-368c186e></a> <div id="nav-collapse" class="nav-collapse navbar-collapse collapse" style="display:none;" data-v-368c186e><ul class="navbar-nav base-menu" data-v-368c186e><div class="dropdown b-dropdown base-menu-dropdown btn-group" data-v-b070010c><button type="button" class="btn btn-secondary">
-    实验楼
-    <!----></button><button aria-haspopup="true" aria-expanded="false" type="button" class="btn dropdown-toggle btn-secondary dropdown-toggle-split"><span class="sr-only">Toggle Dropdown</span></button><ul role="menu" tabindex="-1" class="dropdown-menu"> <li role="presentation" class="dropdown-item" data-v-4195de8a><a href="/courses/" role="menuitem" target="_self" class="dropdown-item">
-  全部课程
-  <!----></a></li><li role="presentation" class="dropdown-item" data-v-4195de8a><a href="/paths/" role="menuitem" target="_self" class="dropdown-item">
-  学习路径
-  <!----></a></li><li role="presentation" class="dropdown-item" data-v-4195de8a><a href="/bootcamp/" role="menuitem" target="_self" class="dropdown-item">
-  训练营
-  <!----></a></li><li role="presentation" class="dropdown-item" data-v-4195de8a><a role="menuitem" href="http://xueyuan.lanqiao.cn/" target="_self" class="dropdown-item">
-  就业班
-  <!----></a></li><li role="presentation" class="dropdown-item" data-v-4195de8a><a role="menuitem" href="/live/" target="_self" class="dropdown-item">
-  实验1小时
-  <img src="https://static.shiyanlou.com/lanqiao/frontend/dist/img/tag-new.9d22254.svg" class="menu-icon" data-v-4195de8a></a></li><li role="presentation" class="dropdown-item" data-v-4195de8a><a href="/library/" role="menuitem" target="_self" class="dropdown-item">
-  教程库
-  <!----></a></li></ul></div><li class="nav-item relative" data-v-7c03e9ae><a target="_blank" href="http://dasai.lanqiao.cn/" class="nav-link relative inline-block" data-v-7c03e9ae><span data-v-7c03e9ae>蓝桥杯</span> <!----></a></li><li class="nav-item relative" data-v-7c03e9ae><a href="/jobs/" class="nav-link relative inline-block" data-v-7c03e9ae><span data-v-7c03e9ae>求职</span> <!----></a></li><li class="nav-item relative" data-v-7c03e9ae><a href="/questions/" class="nav-link relative inline-block" data-v-7c03e9ae><span data-v-7c03e9ae>社区</span> <!----></a></li></ul> <ul class="navbar-nav ml-auto base-menu base-menu-right" data-v-368c186e><li class="nav-item"><a href="http://x.lanqiao.cn/" class="minor-nav-link">1+X证书</a></li><li class="nav-item"><a href="/saas/school/" class="minor-nav-link">
-        学校版
-      </a></li><li class="nav-item"><a href="/saas/" class="minor-nav-link">
-        企业版
-      </a></li> <div class="search-container"><div class="search" data-v-acd418f4><li class="form-inline" data-v-acd418f4 data-v-acd418f4><form class="form-inline" data-v-acd418f4 data-v-acd418f4><input type="text" placeholder="搜索 课程/问答" value="" class="mr-sm-2 form-control form-control-sm" data-v-acd418f4> <button type="button" class="btn my-2 my-sm-0 btn-secondary btn-sm" data-v-acd418f4 data-v-acd418f4><i class="fa fa-search" data-v-acd418f4></i></button></form></li></div></div> <div class="signed-user"><ul class="navbar-nav nav-item user-center"><span class="nav-link teacer">
-      教师中心
-    </span></ul> <div class="nav-item user-message"><a href="/user/messages" id="user-message" class="nav-link"><!----> <span class="bell-img"></span></a> <!----> <!----></div> <div class="user-box-dropdown"><a title="id: 1475745" href="/users/1475745" target="_blank" class="user-avatar user-avatar-link inline-block" style="width:50px;height:50px;" data-v-53d4919e><img src="https://main.lanqiao.cn/upload/202011/photo/CD13776A84384162B1BC68B7B69FED19.jpg?imageView2/1/w/50/h/50/" alt="梦想橡皮擦" class="user-avatar-image" data-v-53d4919e> <div class="vip-icon-container" data-v-53d4919e><img src="https://static.shiyanlou.com/lanqiao/frontend/dist/img/plus-vip-icon.5a1be41.png" width="18px" alt="7" class="vip-icon" data-v-324b0cd0 data-v-53d4919e></div></a> <div class="user-box-dropdown-content"><div class="user-box" data-v-972cc9b6><div class="user-info" data-v-63a88d40 data-v-972cc9b6><a title="id: 1475745" href="/users/1475745" target="_blank" class="user-avatar user-avatar-link inline-block" style="width:50px;height:50px;" data-v-53d4919e data-v-63a88d40><img src="https://main.lanqiao.cn/upload/202011/photo/CD13776A84384162B1BC68B7B69FED19.jpg?imageView2/1/w/50/h/50/" alt="梦想橡皮擦" class="user-avatar-image" data-v-53d4919e> <div class="vip-icon-container" data-v-53d4919e><img src="https://static.shiyanlou.com/lanqiao/frontend/dist/img/plus-vip-icon.5a1be41.png" width="18px" alt="7" class="vip-icon" data-v-324b0cd0 data-v-53d4919e></div></a> <div class="user-name-container" data-v-63a88d40><div title="梦想橡皮擦" class="user-name" data-v-de77406a data-v-63a88d40><a href="/users/1475745" target="_blank" title="梦想橡皮擦" class="name" data-v-de77406a>
-    梦想橡皮擦
-  </a> <div class="level" data-v-de77406a>L7</div> <!----></div> <div class="today-minutes" data-v-63a88d40>
-      今日有效学习 0 分钟
-    </div></div></div> <div style="height:20px;" data-v-972cc9b6></div> <button type="button" class="btn saved-env-btn btn-primary btn-sm" data-v-4823705b data-v-4823705b data-v-972cc9b6><i class="fa fa-power-off" data-v-4823705b></i> <span data-v-4823705b>暂无保存的环境</span></button> <div style="height:25px;" data-v-972cc9b6></div> <div class="link-list" data-v-1d90dd32 data-v-972cc9b6><a href="/user/" class="link link-item" style="--color:#666;" data-v-bb7f8476 data-v-1d90dd32>
-  我的主页
-</a><a href="/user/profile/" class="link link-item" style="--color:#666;" data-v-bb7f8476 data-v-1d90dd32>
-  个人设置
-</a><a href="/vip" class="link link-item" style="--color:#666;" data-v-bb7f8476 data-v-1d90dd32>
-  会员中心
-</a><a href="/contribute/" class="link link-item" style="--color:#666;" data-v-bb7f8476 data-v-1d90dd32>
-  成为作者
-</a></div> <div style="height:5px;" data-v-972cc9b6></div> <div class="logout" data-v-1e18fcd2 data-v-972cc9b6>退出登录</div></div></div></div></div> <!----></ul></div></div></nav> <div class="body" data-v-1bf66665><!---->  <div class="container" data-v-60bc0ed8 data-v-548a9c2e><div class="row" data-v-60bc0ed8><div class="col-12" data-v-60bc0ed8></div> <div class="col-md-1" data-v-60bc0ed8><div data-v-60bc0ed8 data-v-548a9c2e><div class="page-container" data-v-c165b18a data-v-548a9c2e><ul class="question-topic" data-v-c165b18a><li class="topic-wrapper" data-v-c165b18a><span class="topic" data-v-c165b18a>
-        最新</span></li><li class="topic-wrapper" data-v-c165b18a><span class="topic" data-v-c165b18a>
-        热门</span></li><li class="topic-wrapper" data-v-c165b18a><span class="topic" data-v-c165b18a>
-        关注</span></li> <div class="divide" data-v-c165b18a></div></ul> <ul class="question-topic" data-v-c165b18a></ul></div></div></div> <div class="col-md-8" data-v-60bc0ed8><div data-v-60bc0ed8 data-v-548a9c2e><div class="common-content page-content" data-v-0af8a0f9 data-v-548a9c2e><!----> <!----> <div class="loading" data-v-0af8a0f9 data-v-548a9c2e><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjkwIiBoZWlnaHQ9IjEwNiIgdmlld0JveD0iMCAwIDY5MCAxMDYiPgogICAgPGRlZnM+CiAgICAgICAgPGNpcmNsZSBpZD0icHJlZml4X19hIiBjeD0iMjUiIGN5PSIyNSIgcj0iMjUiLz4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHRleHQgZmlsbD0iIzMzMyIgZm9udC1mYW1pbHk9IlBpbmdGYW5nU0MtUmVndWxhciwgUGluZ0ZhbmcgU0MiIGZvbnQtc2l6ZT0iMTYiPgogICAgICAgICAgICA8dHNwYW4geD0iNjUiIHk9IjIxIj7lrp7pqozmpbznmb7mpbzkv7HkuZDpg6jmiJDnq4vvvIzmrKLov44xMDDmpbznmoTkvaDliqDlhaXvvIE8L3RzcGFuPgogICAgICAgIDwvdGV4dD4KICAgICAgICA8cmVjdCB3aWR0aD0iMzc2IiBoZWlnaHQ9IjE5IiB4PSI2NSIgeT0iNyIgZmlsbD0iI0VFRSIgcng9IjIiLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMzMwIiBoZWlnaHQ9IjE5IiB4PSI2NSIgeT0iMzIiIGZpbGw9IiNFRUUiIHJ4PSIyIi8+CiAgICAgICAgPHJlY3Qgd2lkdGg9Ijc4IiBoZWlnaHQ9IjIwIiB4PSI2NSIgeT0iNzAiIGZpbGw9IiNFRUUiIHJ4PSIyIi8+CiAgICAgICAgPHVzZSBmaWxsPSIjRUVFIiB4bGluazpocmVmPSIjcHJlZml4X19hIi8+CiAgICAgICAgPGcgZmlsbD0iI0VFRSI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0wIDBINjkwVjFIMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMTA1KSIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg==" data-v-0af8a0f9 data-v-548a9c2e> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjkwIiBoZWlnaHQ9IjEwNiIgdmlld0JveD0iMCAwIDY5MCAxMDYiPgogICAgPGRlZnM+CiAgICAgICAgPGNpcmNsZSBpZD0icHJlZml4X19hIiBjeD0iMjUiIGN5PSIyNSIgcj0iMjUiLz4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHRleHQgZmlsbD0iIzMzMyIgZm9udC1mYW1pbHk9IlBpbmdGYW5nU0MtUmVndWxhciwgUGluZ0ZhbmcgU0MiIGZvbnQtc2l6ZT0iMTYiPgogICAgICAgICAgICA8dHNwYW4geD0iNjUiIHk9IjIxIj7lrp7pqozmpbznmb7mpbzkv7HkuZDpg6jmiJDnq4vvvIzmrKLov44xMDDmpbznmoTkvaDliqDlhaXvvIE8L3RzcGFuPgogICAgICAgIDwvdGV4dD4KICAgICAgICA8cmVjdCB3aWR0aD0iMzc2IiBoZWlnaHQ9IjE5IiB4PSI2NSIgeT0iNyIgZmlsbD0iI0VFRSIgcng9IjIiLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMzMwIiBoZWlnaHQ9IjE5IiB4PSI2NSIgeT0iMzIiIGZpbGw9IiNFRUUiIHJ4PSIyIi8+CiAgICAgICAgPHJlY3Qgd2lkdGg9Ijc4IiBoZWlnaHQ9IjIwIiB4PSI2NSIgeT0iNzAiIGZpbGw9IiNFRUUiIHJ4PSIyIi8+CiAgICAgICAgPHVzZSBmaWxsPSIjRUVFIiB4bGluazpocmVmPSIjcHJlZml4X19hIi8+CiAgICAgICAgPGcgZmlsbD0iI0VFRSI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0wIDBINjkwVjFIMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMTA1KSIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg==" data-v-0af8a0f9 data-v-548a9c2e> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjkwIiBoZWlnaHQ9IjEwNiIgdmlld0JveD0iMCAwIDY5MCAxMDYiPgogICAgPGRlZnM+CiAgICAgICAgPGNpcmNsZSBpZD0icHJlZml4X19hIiBjeD0iMjUiIGN5PSIyNSIgcj0iMjUiLz4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHRleHQgZmlsbD0iIzMzMyIgZm9udC1mYW1pbHk9IlBpbmdGYW5nU0MtUmVndWxhciwgUGluZ0ZhbmcgU0MiIGZvbnQtc2l6ZT0iMTYiPgogICAgICAgICAgICA8dHNwYW4geD0iNjUiIHk9IjIxIj7lrp7pqozmpbznmb7mpbzkv7HkuZDpg6jmiJDnq4vvvIzmrKLov44xMDDmpbznmoTkvaDliqDlhaXvvIE8L3RzcGFuPgogICAgICAgIDwvdGV4dD4KICAgICAgICA8cmVjdCB3aWR0aD0iMzc2IiBoZWlnaHQ9IjE5IiB4PSI2NSIgeT0iNyIgZmlsbD0iI0VFRSIgcng9IjIiLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMzMwIiBoZWlnaHQ9IjE5IiB4PSI2NSIgeT0iMzIiIGZpbGw9IiNFRUUiIHJ4PSIyIi8+CiAgICAgICAgPHJlY3Qgd2lkdGg9Ijc4IiBoZWlnaHQ9IjIwIiB4PSI2NSIgeT0iNzAiIGZpbGw9IiNFRUUiIHJ4PSIyIi8+CiAgICAgICAgPHVzZSBmaWxsPSIjRUVFIiB4bGluazpocmVmPSIjcHJlZml4X19hIi8+CiAgICAgICAgPGcgZmlsbD0iI0VFRSI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0wIDBINjkwVjFIMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMTA1KSIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg==" data-v-0af8a0f9 data-v-548a9c2e></div></div></div></div> <div class="col-md-3" data-v-60bc0ed8><div data-v-60bc0ed8 data-v-548a9c2e><div class="side" data-v-b4367646 data-v-548a9c2e><button type="button" class="btn side-btn btn-primary" data-v-22d16fec data-v-22d16fec data-v-b4367646>
-  我要发帖
-  <!----></button> <button type="button" disabled="disabled" class="btn side-btn btn-secondary disabled has-content" data-v-22d16fec data-v-22d16fec data-v-b4367646>
-  今日已签到
-  <div class="content" data-v-22d16fec>
-    (获得3个实验豆)
-  </div></button> <div class="beans-mall text-center font-12 bold" data-v-b4367646><a href="/mall/" class="text-primary" data-v-b4367646>
-      前往实验豆商城兑换好礼
-    </a></div> <div class="side-img-wrapper" data-v-5f71a96c data-v-b4367646><a href="/live/" target="_blank" class="side-img" data-v-5f71a96c><img src="https://static.shiyanlou.com/lanqiao/frontend/dist/img/live-one-hour.04ad0b2.png" alt="实验1小时" data-v-5f71a96c></a></div> <div class="side-box recently-activity-box recently-activity-box" data-v-7741df6a data-v-4fc31e08 data-v-b4367646><div class="box-header" data-v-7741df6a><span class="box-title" data-v-7741df6a>
-        近期活动
-      </span></div> <div class="box-body" data-v-7741df6a><div class="activity-list" data-v-7741df6a data-v-4fc31e08><ul class="activity-list-ul" data-v-7741df6a data-v-4fc31e08><li data-v-7741df6a data-v-4fc31e08><a href="/courses/3023" class="activity-link" data-v-7741df6a data-v-4fc31e08><span title="11 个案例掌握 Python 数据可视化" class="activity-name" data-v-7741df6a data-v-4fc31e08>
-              11 个案例掌握 Python 数据可视化
-            </span> <span class="activity-date" data-v-7741df6a data-v-4fc31e08>
-              12月10日
-            </span></a></li><li data-v-7741df6a data-v-4fc31e08><a href="/contests/lou24/challenges/" class="activity-link" data-v-7741df6a data-v-4fc31e08><span title="楼赛 第 24 期" class="activity-name" data-v-7741df6a data-v-4fc31e08>
-              楼赛 第 24 期
-            </span> <span class="activity-date" data-v-7741df6a data-v-4fc31e08>
-              12月01日
-            </span></a></li></ul></div></div> <div class="box-footer" data-v-7741df6a></div></div> <div class="side-box recently-louplus-box recently-louplus-box" data-v-7741df6a data-v-234f8461 data-v-b4367646><div class="box-header" data-v-7741df6a><span class="box-title" data-v-7741df6a>
-        近期楼+
-      </span></div> <div class="box-body" data-v-7741df6a><div class="louplus-list" data-v-7741df6a data-v-234f8461><ul class="louplus-list-ul" data-v-7741df6a data-v-234f8461><li data-v-7741df6a data-v-234f8461><a href="/courses/3076/" data-v-7741df6a data-v-234f8461><span title="楼+ 之 Python 进阶实训 1 期" class="inline-block" data-v-7741df6a data-v-234f8461>
-              楼+ 之 Python 进阶实训 1 期
-            </span> <span class="inline-block" data-v-7741df6a data-v-234f8461>
-              12月01日
-            </span></a></li><li data-v-7741df6a data-v-234f8461><a href="/courses/2656/" data-v-7741df6a data-v-234f8461><span title="楼+之 Linux 运维基础【随到随学】" class="inline-block" data-v-7741df6a data-v-234f8461>
-              楼+之 Linux 运维基础【随到随学】
-            </span> <span class="inline-block" data-v-7741df6a data-v-234f8461>
-              随到随学
-            </span></a></li><li data-v-7741df6a data-v-234f8461><a href="/courses/3115/" data-v-7741df6a data-v-234f8461><span title="楼+ 之数据分析与挖掘实训 1 期" class="inline-block" data-v-7741df6a data-v-234f8461>
-              楼+ 之数据分析与挖掘实训 1 期
-            </span> <span class="inline-block" data-v-7741df6a data-v-234f8461>
-              12月02日
-            </span></a></li><li data-v-7741df6a data-v-234f8461><a href="/courses/1525/" data-v-7741df6a data-v-234f8461><span title="楼+ AWS 云计算实战【随到随学】" class="inline-block" data-v-7741df6a data-v-234f8461>
-              楼+ AWS 云计算实战【随到随学】
-            </span> <span class="inline-block" data-v-7741df6a data-v-234f8461>
-              随到随学
-            </span></a></li></ul></div></div> <div class="box-footer" data-v-7741df6a></div></div> <div class="side-box followed-path-box followed-path-box" data-v-7741df6a data-v-802bbe6e data-v-b4367646><div class="box-header" data-v-7741df6a><span class="box-title" data-v-7741df6a>
-        我的路径
-      </span></div> <div class="box-body" data-v-7741df6a><ul class="followed-path" data-v-7741df6a data-v-802bbe6e></ul></div> <div class="box-footer" data-v-7741df6a></div></div> <div class="side-box recommend-topic-box recommend-topic-box" data-v-7741df6a data-v-6c768a2b data-v-b4367646><div class="box-header" data-v-7741df6a><span class="box-title" data-v-7741df6a>
-        推荐话题
-      </span></div> <div class="box-body" data-v-7741df6a><ul class="recommend-topic" data-v-7741df6a data-v-6c768a2b></ul> <a href="/questions/all-topics/" target="_blank" class="view-all" data-v-7741df6a data-v-6c768a2b>
-      查看全部话题&gt;
-    </a></div> <div class="box-footer" data-v-7741df6a></div></div> <!----></div></div></div></div>  <div class="fixed-right" data-v-4eccfdeb data-v-60bc0ed8></div></div>  <div class="risk-validation" data-v-462ceb63 data-v-1bf66665><!----></div> <!----> <!----> <div data-v-1bf66665><!----></div> <!----></div> <footer class="footer page-footer relative" data-v-9afbd76e><div class="container footer-body font-14" data-v-9afbd76e><div class="row" data-v-9afbd76e><div class="col-md-4" data-v-9afbd76e><div class="content-wrap full-height" data-v-9afbd76e><p data-v-9afbd76e><img src="https://static.shiyanlou.com/lanqiao/frontend/dist/img/lanqiao-logo.5de12f2.svg" alt="蓝桥" height="42" data-v-9afbd76e></p> <p class="slogan" data-v-9afbd76e>连接高校和企业</p> <div class="social" data-v-9afbd76e><span class="weixin" data-v-9afbd76e><i class="fa fa-weixin" data-v-9afbd76e></i> <img src="https://static.shiyanlou.com/lanqiao/frontend/dist/img/wx-code.aba03b8.png" class="qrcode" data-v-9afbd76e></span></div></div></div> <div class="col-md-2 links" data-v-9afbd76e><div class="title" data-v-9afbd76e>
-          公司
-        </div> <a href="/aboutus/" target="_blank" class="link" data-v-9afbd76e>关于我们</a><a href="/contact/" target="_blank" class="link" data-v-9afbd76e>联系我们</a><a href="http://www.simplelab.cn/jobs.html" target="_blank" class="link" data-v-9afbd76e>加入我们</a></div><div class="col-md-2 links" data-v-9afbd76e><div class="title" data-v-9afbd76e>
-          产品与服务
-        </div> <a href="/vip/" target="_blank" class="link" data-v-9afbd76e>会员服务</a><a href="http://dasai.lanqiao.cn/" target="_blank" class="link" data-v-9afbd76e>蓝桥杯大赛</a><a href="/bootcamp/" target="_blank" class="link" data-v-9afbd76e>实战训练营</a><a href="http://xueyuan.lanqiao.cn/" target="_blank" class="link" data-v-9afbd76e>就业班</a><a href="/jobs/" target="_blank" class="link" data-v-9afbd76e>保入职</a></div><div class="col-md-2 links" data-v-9afbd76e><div class="title" data-v-9afbd76e>
-          合作
-        </div> <a href="https://x.lanqiao.cn/" target="_blank" class="link" data-v-9afbd76e>1+X证书</a><a href="/saas/school/" target="_blank" class="link" data-v-9afbd76e>高校实验教学</a><a href="/saas/" target="_blank" class="link" data-v-9afbd76e>企业内训</a><a href="http://xueyuan.lanqiao.cn/" target="_blank" class="link" data-v-9afbd76e>合办学院</a><a href="/contribute/" target="_blank" class="link" data-v-9afbd76e>成为作者</a></div><div class="col-md-2 links" data-v-9afbd76e><div class="title" data-v-9afbd76e>
-          学习路径
-        </div> <a href="/paths/1/" target="_blank" class="link" data-v-9afbd76e>Python学习路径</a><a href="/paths/5/" target="_blank" class="link" data-v-9afbd76e>Linux学习路径</a><a href="/paths/2/" target="_blank" class="link" data-v-9afbd76e>大数据学习路径</a><a href="/paths/11/" target="_blank" class="link" data-v-9afbd76e>Java学习路径</a><a href="/paths/10/" target="_blank" class="link" data-v-9afbd76e>PHP学习路径</a><a href="/paths/" target="_blank" class="link" data-v-9afbd76e>全部</a></div></div></div> <div class="footer-footer" data-v-9afbd76e><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020352" target="_blank" style="color: #666" data-v-9afbd76e>京公网安备 11010802020352号</a> © Copyright 2020. 蓝桥网版权所有
-    <a href="https://beian.miit.gov.cn/" target="_blank" style="color: #666" data-v-9afbd76e>| 京ICP备11024192号</a></div></footer> <!----> <div class="flash-message" data-v-0027dc5d data-v-1bf66665><!----></div> <!----> <!----> <!----></div></div></div><script>window.__NUXT__=(function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t){return {layout:"default",data:[[g,g,g,g]],fetch:[],error:a,state:{user:{userBaseInfo:{},userPublicInfo:{},userStudyRecords:{},userVisitors:[],userReportStatistic:{},userCoursesStatus:[],editableUserInfo:{},editUserInfoStatus:{nickname:b,school:b},editUserPassword:{status:b,newPwd:c,oldPwd:c},hundredLevelUserInfo:{},userEmailSettings:{},courseRecordAction:{},oauthStatus:{},certificate:{},userCertificates:[],userStudiedCourses:[],medals:a,medal:a,userTask:a,"mutation-types":{}},teacher:{course:{},labs:[],monthData:[],courseUserStatus:{},courseStudents:[],labReports:[],activeLab:{},activePhase:{},publishedCourses:[],comments:{},commentStatus:[],questions:{},coursePools:[],vipCoursePools:[],cloneCoursePools:[],cloneVipCoursePools:[],candidateTeachers:[],teacherInfo:{},examChapter:b,income:[],studentsMeta:[],"mutation-types":{}},sideBox:{recentLouplus:[{id:3076,name:"楼+ 之 Python 进阶实训 1 期",type:"python",open_time:"2020-12-01T11:30:00+00:00",remain_count:22,can_be_purchased:d,is_user_paid:b,is_discount:d,original_price:i,real_price:j,html_url:"\u002Fcourses\u002F3076\u002F",picture_url:"https:\u002F\u002Fdn-simplecloud.shiyanlou.com\u002Fcourses\u002Fuid214893-20201102-1604313385253",landing_html_url:"\u002Flouplus\u002Fpython",description:a,description_detail:a,qq_group:c,discount_end_time:"2020-12-08T17:43:25+08:00",labs_count:k,challenge_labs_count:26,lives_count:f,label:a},{id:2656,name:"楼+之 Linux 运维基础【随到随学】",type:"linux_basic",open_time:l,remain_count:77,can_be_purchased:d,is_user_paid:b,is_discount:d,original_price:89900,real_price:49900,html_url:"\u002Fcourses\u002F2656\u002F",picture_url:"https:\u002F\u002Fdn-simplecloud.shiyanlou.com\u002Fcourses\u002Fuid214893-20201126-1606377054763",landing_html_url:"\u002Flouplus\u002Flinux_basic",description:a,description_detail:a,qq_group:c,discount_end_time:m,labs_count:50,challenge_labs_count:n,lives_count:e,label:o},{id:3115,name:"楼+ 之数据分析与挖掘实训 1 期",type:"dm",open_time:"2020-12-02T11:30:00+00:00",remain_count:n,can_be_purchased:d,is_user_paid:b,is_discount:d,original_price:259900,real_price:j,html_url:"\u002Fcourses\u002F3115\u002F",picture_url:"https:\u002F\u002Fdn-simplecloud.shiyanlou.com\u002Fcourses\u002Fuid214893-20200623-1592900414653",landing_html_url:"\u002Flouplus\u002Fdm",description:p,description_detail:p,qq_group:c,discount_end_time:"2020-12-09T11:00:00+08:00",labs_count:k,challenge_labs_count:21,lives_count:f,label:a},{id:1525,name:"楼+ AWS 云计算实战【随到随学】",type:"aws",open_time:l,remain_count:85,can_be_purchased:d,is_user_paid:b,is_discount:d,original_price:i,real_price:109900,html_url:"\u002Fcourses\u002F1525\u002F",picture_url:"https:\u002F\u002Fdn-simplecloud.shiyanlou.com\u002Fcourses\u002Fuid214893-20200518-1589773221628",landing_html_url:"\u002Flouplus\u002Faws",description:a,description_detail:a,qq_group:c,discount_end_time:m,labs_count:72,challenge_labs_count:h,lives_count:e,label:o}],recentActivity:[{name:"11 个案例掌握 Python 数据可视化",type:"live_course",start_at:"2020-12-10T11:30:00Z",html_url:"\u002Fcourses\u002F3023"},{name:"楼赛 第 24 期",type:"contest",start_at:"2020-12-01T12:00:00Z",html_url:"\u002Fcontests\u002Flou24\u002Fchallenges\u002F"}],followedPath:[],"mutation-types":{}},search:{results:{},"mutation-types":{}},report:{reports:{},report:{},user_status:{},related:[],study_data:{},lab_user_status:{},"mutation-types":{}},question:{questions:{count:e,results:[]},question:{},questionUserStatus:{},relatedQuestions:[],answers:{},answer:{},answersUserStatus:[],isReply:b,isFocused:b,"mutation-types":{},utils:{},actions:{"answer.config":{},answer:{},"question.config":{},question:{}}},promotion:{promotion:{},coupon:{},"mutation-types":{}},path:{paths:[],path:{},pathUserStatus:c,stage_list:[],"mutation-types":{}},messages:{messages:{},"mutation-types":{}},message:{show:b,type:c,message:c,"mutation-types":{}},mall:{products:{},product:{},order:{},"mutation-types":{}},louplus:{louplusInfo:{},louplusList:[],louplusUserStatus:{},louplusStudentDynamic:[],"mutation-types":{}},live:{liveLab:{specific_lab:{push_stream_url:c}},course:{},liveUserStatus:{},"mutation-types":{}},library:{navData:{},blocks:[],book:{},chapters:[],chapterContents:{},activeChapterSlug:c,isLiked:b,isMarked:b,"mutation-types":{}},labTask:{showLabTask:d,labTask:a,savedEnv:a},home:{courseCategories:c,swapper:c,secSkillCourses:[],classicalCourse:c,recentLouplus:c,popularBootCamp:c,popularPath:c,advertisement:c,advertisementStatus:{show:b,height:e},"mutation-types":{}},course:{categories:[],courses:{},coursesUserStatus:[],course:{},labStages:[],labsUserStatus:[],activeLab:{},questions:{},reports:{},isReply:b,answer:{},comments:{},commentsUserStatus:[],replayUser:{},studentMeta:{order:[],data:{}},relatedCourseGroups:[],pathNextCourses:[],recentlyContests:[],relatedChallenges:[],courseTopStudents:[],monthData:[],students:[],runningStudents:[],courseLabStages:{},labDocData:{},"mutation-types":{},actions:{id:{}}},contest:{contests:a,contest_detail:a,contests_rank:a,contest_rank:{results:[]},contest_list:[],user_contest_status:{},availableContests:[],finishedContests:[],"mutation-types":{}},challenge:{challenges:a,challengesStatus:a,challenge_tags:[],submissions:[],answers:a,lab_document:{},submission:{},challenge:{},modal:b,modal_content:{},"mutation-types":{}},bootcamp:{courses:{},categories:[],"mutation-types":{}},auth:{loggedIn:d,user:{id:1475745,name:"梦想橡皮擦",avatar_url:"https:\u002F\u002Fmain.lanqiao.cn\u002Fupload\u002F202011\u002Fphoto\u002FCD13776A84384162B1BC68B7B69FED19.jpg?imageView2\u002F1\u002Fw\u002F200\u002Fh\u002F200",is_graduated:b,job_title:a,school:a,level:7,member_type:"plus",teacher_info:{realname:a,title:a,school:a,link:a,description:a,students_count:f,lab_type_code:[f,h],courses_count:f},labels:["enterprise_user"],join_date:"2020-09-09",status:"active",html_url:"\u002Fusers\u002F1475745",api_url:"https:\u002F\u002Fwww.lanqiao.cn\u002Fapi\u002Fv2\u002Fusers\u002F1475745\u002F",courses_url:"https:\u002F\u002Fwww.lanqiao.cn\u002Fapi\u002Fv2\u002Fusers\u002F1475745\u002Fcourses\u002F",questions_url:"https:\u002F\u002Fwww.lanqiao.cn\u002Fapi\u002Fv2\u002Fusers\u002F1475745\u002Fquestions\u002F",comments_url:"https:\u002F\u002Fwww.lanqiao.cn\u002Fapi\u002Fv2\u002Fusers\u002F1475745\u002Fcomments\u002F",contests_url:"https:\u002F\u002Fwww.lanqiao.cn\u002Fapi\u002Fv2\u002Fusers\u002F1475745\u002Fcontests\u002F",studied_courses_count:12,followed_courses_count:e,published_courses_count:f,marked_books_count:e,is_site_admin:b,is_teacher:d,email:a,is_email_validated:b,phone:"+8615075290210",beans:"12",created_at:"2020-09-09T19:55:37+08:00",study_minutes:209,free_minutes:e,today_study_minutes:e,bought_courses_count:e,study_labs_count:99,basic_member_expired_at:a,plus_member_expired_at:"2020-12-30T00:00:00+08:00",premium_member_expired_at:a,invitation_html_url:"https:\u002F\u002Fwww.lanqiao.cn\u002Fregister?inviter=NTY0MzIwNDg4NDIw",member_invitation_code:"9492SHU",have_saved_vm:d,enterprise_html_url:c,unread_messages_count:e,is_enterprise_admin:b,session_id:"5fedfdd4-48f1-4685-81b0-73cd5c59741f.AQQGYTefySD4lcpodReSS35KhU4",is_set_password:b,roles:[],abilities:[],in_bailou_club:b,course_quota:2,is_subscribe_mp:b,manage_saas_list:[],is_enterprise_user:d,is_saas_teacher:b,rongyun_im_token:"0dAxll8dLmDK8MSGkgBdjCcR9\u002FHemy6sTY6OxF62jIU=@z60b.cn.rongnav.com;z60b.cn.rongcfg.com",is_creator:b,sso_type_code:e},isChecked:d,risk:{isRisk:b},authTokens:{},beans:h,signActive:"signInForm",token:c,"mutation-types":{},redirect:q},activity:{activity:{start_at:"2020-12-01T20:06:03.522000+08:00",end_at:"2020-12-06T23:59:33.522000+08:00",member_config:a,bootcamp_config:a,louplus_config:a},rules:[{product_type:r,discount_type:s,derate_money:e,extra_config:a,present_days:30,discount_percent:t,course_ids:[],buy_days:365,fq_nums:[e]},{product_type:r,discount_type:s,derate_money:e,extra_config:a,present_days:90,discount_percent:t,course_ids:[],buy_days:730,fq_nums:[e]}],modal:{id:"5fc7263cea224b50405de004",activity_id:28,start_at:"2020-12-01T13:28:36.127000+08:00",end_at:"2020-12-06T23:59:59.127000+08:00",created_at:"2020-12-02T13:29:32.067000+08:00",updated_at:"2020-12-02T18:58:00.660000+08:00",config:{title:"竞赛",content_img:"https:\u002F\u002Fdn-simplecloud.shiyanlou.com\u002Fassets\u002F1606886932300_3fcdac8abe1bc99a988f1a86020bbe72",h5_content_img:"https:\u002F\u002Fdn-simplecloud.shiyanlou.com\u002Fassets\u002F1606886936052_1d97f48dc2cc419272983eb571033d27",footer_btn_text:"立即参赛",footer_btn_bgc:"#111014",footer_btn_link:"\u002Fcontests\u002Flou24\u002Fchallenges\u002F?from=modal",popup_rules:"once",user_auth:"all"}},"mutation-types":{}},operation:{},payment:{}},serverRendered:d,routePath:q,config:{nodeEnv:"production",menuHost:"https:\u002F\u002Flanqiao.cn",staticHost:"https:\u002F\u002Fstatic.shiyanlou.com\u002Flanqiao\u002Ffrontend\u002Fstatic",cometServiceUrl:"wss:\u002F\u002Fcomet.lanqiao.cn",axios:{browserBaseURL:"https:\u002F\u002Fwww.lanqiao.cn\u002Fapi\u002Fv2"}}}}(null,false,"",true,0,1,void 0,3,249900,139900,83,"随到随学","2020-12-07T11:00:00+08:00",15,"新版随到随学","楼+ 是实验楼精心打造的教学产品，课程由实验楼一线核心研发人员制作并定 期直播，且提供助教全程 QQ 群答疑等服务。在楼+ 6 周的学习中，你会在实验中动手 学习，在挑战中检验自己的学习成果，在大项目中体验真实工作流程，以此来达到学 习的目的，对只看不动手说 NO!本期主题是数据挖掘实战，6 周课程涵盖完整的数据 挖掘流程，从数据采集到数据预处理，从数据建模到数据可视化。除此之外，你将最 后一周接受真实的数据挖掘项目挑战，我们会对你提交的结果进行人工评阅。","\u002Fquestions\u002F","premium","present","1.000"));</script><script src="https://static.shiyanlou.com/lanqiao/frontend/dist/9f2fda1.js" defer></script><script src="https://static.shiyanlou.com/lanqiao/frontend/dist/7f9ea00.js" defer></script><script src="https://static.shiyanlou.com/lanqiao/frontend/dist/a7b0130.js" defer></script><script src="https://static.shiyanlou.com/lanqiao/frontend/dist/f1177e9.js" defer></script><script src="https://static.shiyanlou.com/lanqiao/frontend/dist/9a9df71.js" defer></script><script src="https://static.shiyanlou.com/lanqiao/frontend/dist/96ad62c.js" defer></script>
-  </body>
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <title>问答中心 - 第2页 - FastAdmin问答社区</title>
+        <link rel="shortcut icon" href="https://cdn.fastadmin.net/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" sizes="any" mask href="https://cdn.fastadmin.net/assets/img/favicon.svg" />
+        <link rel="stylesheet" type="text/css" id="layuicss-layer" href="https://cdn.fastadmin.net/assets/libs/fastadmin-layer/dist/theme/default/layer.css?v=1.0.90"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.fastadmin.net/assets/addons/ask/css/all.min.css?v=1.0.90"/>
+
+  
+
+</head>
+<body class="group-page">
+
+<header class="header">
+    <!-- S 导航 -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://ask.fastadmin.net/" style="padding:6px 0 6px 15px;"><img src="https://cdn.fastadmin.net/assets/addons/ask/img/logo.png" width="180" alt=""></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="https://ask.fastadmin.net/">首页</a></li>
+                    <li class="active"><a href="https://ask.fastadmin.net/questions.html">问答</a></li>
+                    <li class=""><a href="https://ask.fastadmin.net/articles.html">文章</a></li>
+                    <li class=""><a href="https://ask.fastadmin.net/tags.html">话题</a></li>
+                    <li class=""><a href="https://ask.fastadmin.net/experts.html">专家</a></li>
+                    <li class="dropdown">
+                        <a href="https://ask.fastadmin.net/zones.html" class="dropdown-toggle" data-toggle="dropdown">专区 <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-level">
+                                                        <li><a href="https://ask.fastadmin.net/zone/wanlshop.html">WanlShop B2B2C+社区种草直播商城</a></li>
+                                                        <li><a href="https://ask.fastadmin.net/zone/shopro.html">Shopro商城</a></li>
+                                                        <li><a href="https://ask.fastadmin.net/zone/ask.html">知识付费问答社区</a></li>
+                                                        <li><a href="https://ask.fastadmin.net/zone/cms.html">CMS内容管理系统(含小程序)</a></li>
+                                                        <li><a href="https://ask.fastadmin.net/zone/vote.html">在线投票系统(支持微信)</a></li>
+                                                        <li><a href="https://ask.fastadmin.net/zone/nkeditor.html">简洁强大的富文本编辑器(官方推荐)</a></li>
+                                                        <li><a href="https://ask.fastadmin.net/zone/blog.html">简单博客(含小程序)</a></li>
+                                                        <li><a href="https://ask.fastadmin.net/zone/comment.html">一站式社会化评论系统</a></li>
+                                                        <li><a href="https://ask.fastadmin.net/zone/kefu.html">Workerman在线客服</a></li>
+                                                        <li><a href="https://ask.fastadmin.net/zone/litestore.html">移动端商城(微信小程序+VUE移动端)</a></li>
+                                                        <li><a href="https://ask.fastadmin.net/zones.html">更多专区...</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="https://www.fastadmin.net/" class="dropdown-toggle" data-toggle="dropdown">返回主站 <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-level">
+                            <li><a href="https://www.fastadmin.net/">官网首页</a></li>
+                            <li><a href="https://www.fastadmin.net/store.html">插件<span class="hidden-sm">市场</span></a></li>
+                            <li><a href="https://www.fastadmin.net/wxapp.html">小程序</a></li>
+                            <li><a href="https://www.fastadmin.net/download.html">下载</a></li>
+                            <li><a href="https://www.fastadmin.net/demo.html">演示</a></li>
+                            <li><a href="https://www.fastadmin.net/donate.html">捐赠</a></li>
+                            <li><a href="https://www.fastadmin.net/solutions.html">解决方案</a></li>
+                            <li><a href="https://www.fastadmin.net/video.html">视频教程</a></li>
+                            <li><a href="https://doc.fastadmin.net">文档</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <form class="form-inline navbar-form search-form" action="https://ask.fastadmin.net/search.html" method="get">
+                            <input class="form-control" name="q" value="" type="text" id="searchinput" placeholder="搜索问题、话题或文章">
+                        </form>
+                    </li>
+                    <li class="hidden-xs">
+                        <div class="p-2">
+                            <a href="https://ask.fastadmin.net/question/post.html" class="btn btn-primary">提问</a>
+                        </div>
+                    </li>
+                                        <li class="dropdown">
+                                                <a href="https://www.fastadmin.net/user/index.html" class="dropdown-toggle" data-toggle="dropdown">会员<span class="hidden-sm">中心</span> <b class="caret"></b></a>
+                                                <ul class="dropdown-menu">
+                                                        <li><a href="https://www.fastadmin.net/user/login.html"><i class="fa fa-sign-in fa-fw"></i> 登录</a></li>
+                            <li><a href="https://www.fastadmin.net/user/register.html"><i class="fa fa-user-o fa-fw"></i> 注册</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- E 导航 -->
+
+</header>
+
+
+<style>
+    .category-list .tag {
+        border-radius:3px;
+    }
+    .btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+    .btn-labeled {padding-top: 0;padding-bottom: 0;}
+    .category-list .btn { margin-bottom:10px; margin-right:10px;}
+    .btn-light .btn-label {background:#0076ff;color:#fff;margin:-1px;}
+</style>
+<div class="container">
+    <div class="row mt-4" id="questionlist">
+        <div class="col-md-8 col-sm-12">
+            <div class="category-list mb-2">
+                <a href="?" class="btn btn-primary btn-labeled">
+                    <span class="btn-label"><i class="fa fa-home"></i></span>全部
+                </a>
+                                    <a class="btn btn-light btn-labeled" href="?category=6" role="button">
+                        <span class="btn-label"><i class="fa fa-dashboard"></i></span>BUG反馈</a>
+                                    <a class="btn btn-light btn-labeled" href="?category=5" role="button">
+                        <span class="btn-label"><i class="fa fa-dashboard"></i></span>插件开发</a>
+                                    <a class="btn btn-light btn-labeled" href="?category=2" role="button">
+                        <span class="btn-label"><i class="fa fa-dashboard"></i></span>求助交流</a>
+                                    <a class="btn btn-light btn-labeled" href="?category=1" role="button">
+                        <span class="btn-label"><i class="fa fa-dashboard"></i></span>意见建议</a>
+                            </div>
+
+            <!-- S 首页问题列表 -->
+            <ul class="nav nav-tabs nav-noborder mb-10 mt-20">
+                <li class="active"><a href="?category=&type=default">默认</a></li>
+                <li class=""><a href="?category=&type=new">最新</a></li>
+                <li class=""><a href="?category=&type=hot">热门</a></li>
+                <li class=""><a href="?category=&type=price">悬赏</a></li>
+                <li class=""><a href="?category=&type=unsolved">未解决</a></li>
+                <li class=""><a href="?category=&type=unanswer">未回答</a></li>
+                <li class=""><a href="?category=&type=solved">已解决</a></li>
+                                <a href="https://ask.fastadmin.net/question/post.html" class="btn btn-light pull-right"><i class="fa fa-pencil"></i> 发布问题</a>
+            </ul>
+
+            <div class="tab-inner" style="background:#fff;padding:15px;">
+                <div class="question-list" data-page="2" data-more="1">
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered solved">
+            2            <small> 解决</small>
+        </div>
+        <div class="views hidden-xs">
+            73            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/4383" data-toggle="popover" data-title="taoge1992" data-type="user" data-id="4383">taoge1992</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25346.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">想开发一个小区物业管理插件，用系统自带的用户表好，还是自己新建用户表好？</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/4.html" class="tag">插件开发</a>
+                        <a href="https://ask.fastadmin.net/tag/7722.html" class="tag">小区物业</a>
+                        <a href="https://ask.fastadmin.net/tag/7723.html" class="tag">物业管理</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            3            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            42            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/14985" data-toggle="popover" data-title="狰狞的奶粉" data-type="user" data-id="14985">狰狞的奶粉</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25345.html">
+                                <span class="price-tag" data-toggle="tooltip" data-title="如果回答被采纳，回答者将获得50积分"><i class="fa fa-database"></i> 50</span>
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">如何foreach循环请求接口，成功返回数据则执行下一次循环</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/575.html" class="tag">PHP7.2</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            1            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            36            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/31926" data-toggle="popover" data-title="chenzongyi" data-type="user" data-id="31926">chenzongyi</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25344.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">cms的百度小程序登录报&ldquo;参数不正确&rdquo;</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/16.html" class="tag"><img src="https://cdn.fastadmin.net/uploads/20190309/85d9c92b7fb1d5d7df7b764117643135.png" alt="">CMS</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            2            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            46            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/9594" data-toggle="popover" data-title="错别字先生" data-type="user" data-id="9594">错别字先生</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25343.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">插件下一版本能开发一个曲线图么？总结一个月或者一个周的学习曲线</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/4383.html" class="tag">需求开发</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered solved">
+            1            <small> 解决</small>
+        </div>
+        <div class="views hidden-xs">
+            30            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/36787" data-toggle="popover" data-title="70898665" data-type="user" data-id="36787">70898665</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25342.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">官方的富文本编辑器如何修改附件的显示方法呢？</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/16.html" class="tag"><img src="https://cdn.fastadmin.net/uploads/20190309/85d9c92b7fb1d5d7df7b764117643135.png" alt="">CMS</a>
+                        <a href="https://ask.fastadmin.net/tag/21.html" class="tag"><img src="https://cdn.fastadmin.net/uploads/20190309/30768306de8aa03dc42f957720e6cc94.png" alt="">富文本编辑器</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            1            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            42            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/35712" data-toggle="popover" data-title="gkzzd" data-type="user" data-id="35712">gkzzd</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25339.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">cms 栏目隐藏后台添加文章时隐藏的栏目不应该也显示出来吧</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/16.html" class="tag"><img src="https://cdn.fastadmin.net/uploads/20190309/85d9c92b7fb1d5d7df7b764117643135.png" alt="">CMS</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            1            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            30            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/13253" data-toggle="popover" data-title="wgldream" data-type="user" data-id="13253">wgldream</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25338.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">想首页调用自定义表单，不懂怎么实现</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/383.html" class="tag">自定义表单</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers  ">
+            0            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            44            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/8401" data-toggle="popover" data-title="淬血之心" data-type="user" data-id="8401">淬血之心</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25337.html">
+                                <span class="price-tag" data-toggle="tooltip" data-title="如果回答被采纳，回答者将获得10积分"><i class="fa fa-database"></i> 10</span>
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">如何解决composer依赖PHP版本不一致的问题?</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/536.html" class="tag">composer</a>
+                        <a href="https://ask.fastadmin.net/tag/1875.html" class="tag">markbaker</a>
+                        <a href="https://ask.fastadmin.net/tag/3850.html" class="tag">PhpSpreadsheet</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            1            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            35            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/5011" data-toggle="popover" data-title="唯U沃联盟" data-type="user" data-id="5011">唯U沃联盟</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25336.html">
+                                <span class="price-tag" data-toggle="tooltip" data-title="如果回答被采纳，回答者将获得20积分"><i class="fa fa-database"></i> 20</span>
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">增强表格优化出现头部错位问题。</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/6528.html" class="tag">表格增强</a>
+                        <a href="https://ask.fastadmin.net/tag/7719.html" class="tag">表格优化增强</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered solved">
+            1            <small> 解决</small>
+        </div>
+        <div class="views hidden-xs">
+            59            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/15633" data-toggle="popover" data-title="BoYou233" data-type="user" data-id="15633">BoYou233</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25335.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">APi文档正文如何定义?</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/481.html" class="tag">API文档</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            1            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            44            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/14033" data-toggle="popover" data-title="BUKEBUCHI" data-type="user" data-id="14033">BUKEBUCHI</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25334.html">
+                                <span class="price-tag" data-toggle="tooltip" data-title="如果回答被采纳，回答者将获得10积分"><i class="fa fa-database"></i> 10</span>
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">如何在主页中实现iframe的全屏和退出全屏</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/934.html" class="tag">iframe</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            2            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            34            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/33154" data-toggle="popover" data-title="天上白鱼精" data-type="user" data-id="33154">天上白鱼精</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25333.html">
+                                <span class="price-tag" data-toggle="tooltip" data-title="如果回答被采纳，回答者将获得50积分"><i class="fa fa-database"></i> 50</span>
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">h5详情页面获取模型新增图片字段</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/16.html" class="tag"><img src="https://cdn.fastadmin.net/uploads/20190309/85d9c92b7fb1d5d7df7b764117643135.png" alt="">CMS</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            1            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            31            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/20552" data-toggle="popover" data-title="xiaobin" data-type="user" data-id="20552">xiaobin</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25332.html">
+                                <span class="price-tag" data-toggle="tooltip" data-title="如果回答被采纳，回答者将获得10积分"><i class="fa fa-database"></i> 10</span>
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">离线插件安装报错无法安装</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/56.html" class="tag">插件安装</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered solved">
+            1            <small> 解决</small>
+        </div>
+        <div class="views hidden-xs">
+            38            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/28617" data-toggle="popover" data-title="白华" data-type="user" data-id="28617">白华</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25331.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">插件开发,修改数据时找不到控制器</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/4.html" class="tag">插件开发</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            2            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            41            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/18539" data-toggle="popover" data-title="智造者" data-type="user" data-id="18539">智造者</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25329.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">有没有数学公式的插件？？</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/7718.html" class="tag">数学公式</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers  ">
+            0            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            53            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/35226" data-toggle="popover" data-title="17008428" data-type="user" data-id="35226">17008428</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25328.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">写入site.php文件格式错误</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/7717.html" class="tag">site.php</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            1            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            54            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/15222" data-toggle="popover" data-title="厦门飞鸽QQ117801633" data-type="user" data-id="15222">厦门飞鸽QQ117801633</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25327.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">fastadmin迁移到正式服务器访问异常</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/16.html" class="tag"><img src="https://cdn.fastadmin.net/uploads/20190309/85d9c92b7fb1d5d7df7b764117643135.png" alt="">CMS</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered solved">
+            4            <small> 解决</small>
+        </div>
+        <div class="views hidden-xs">
+            72            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/35040" data-toggle="popover" data-title="大成123" data-type="user" data-id="35040">大成123</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25326.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">有没要开发类似好知网的视频插件，觉得很不错</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/7716.html" class="tag">视频插件</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            2            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            52            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/35225" data-toggle="popover" data-title="qzqr" data-type="user" data-id="35225">qzqr</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25325.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">为什么搜索框全部出现API异常？</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/7096.html" class="tag">B2B2C</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            1            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            25            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/19792" data-toggle="popover" data-title="phper_stone" data-type="user" data-id="19792">phper_stone</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25324.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">后台怎么设置默认就是显示英文语言？</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/3693.html" class="tag">英文</a>
+                        <a href="https://ask.fastadmin.net/tag/7715.html" class="tag">语言</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered solved">
+            1            <small> 解决</small>
+        </div>
+        <div class="views hidden-xs">
+            45            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/31813" data-toggle="popover" data-title="dzg" data-type="user" data-id="31813">dzg</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25323.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">求助 datetimepicker 在手机端怎么禁止弹出键盘</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/1801.html" class="tag">手机端</a>
+                        <a href="https://ask.fastadmin.net/tag/749.html" class="tag">日期插件</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered solved">
+            1            <small> 解决</small>
+        </div>
+        <div class="views hidden-xs">
+            40            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/11153" data-toggle="popover" data-title="磨砺中" data-type="user" data-id="11153">磨砺中</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25322.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">问题左右对话输出？用什么方法比较合适</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/30.html" class="tag">问答</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered solved">
+            1            <small> 解决</small>
+        </div>
+        <div class="views hidden-xs">
+            42            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/37750" data-toggle="popover" data-title="haixitong" data-type="user" data-id="37750">haixitong</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25321.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">心理测试小程序直接用小程序里授权登陆可有？？？？</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/6152.html" class="tag">心理测试</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered solved">
+            1            <small> 解决</small>
+        </div>
+        <div class="views hidden-xs">
+            48            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/37563" data-toggle="popover" data-title="网" data-type="user" data-id="37563">网</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25320.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">如果CMS模板不是自适应的怎么来做手机网站呢？</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/7714.html" class="tag">手机网站</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            1            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            38            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/31330" data-toggle="popover" data-title="stevenxs" data-type="user" data-id="31330">stevenxs</a>
+                <span class="split"></span>
+                <span class="askDate">1天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25319.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">H5两个问题（背景图和自定义单页）</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/622.html" class="tag">H5</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            1            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            41            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/1780" data-toggle="popover" data-title="aluo0796" data-type="user" data-id="1780">aluo0796</a>
+                <span class="split"></span>
+                <span class="askDate">2天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25318.html">
+                                <span class="price-tag" data-toggle="tooltip" data-title="如果回答被采纳，回答者将获得10积分"><i class="fa fa-database"></i> 10</span>
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">点餐系统h5一直获取定位失败</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/7713.html" class="tag">获取定位失败</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            1            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            63            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/19615" data-toggle="popover" data-title="fdshun" data-type="user" data-id="19615">fdshun</a>
+                <span class="split"></span>
+                <span class="askDate">2天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25317.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">CMS装上去就出现问题。看不懂啊。怎么解决</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/16.html" class="tag"><img src="https://cdn.fastadmin.net/uploads/20190309/85d9c92b7fb1d5d7df7b764117643135.png" alt="">CMS</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            2            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            46            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/37563" data-toggle="popover" data-title="网" data-type="user" data-id="37563">网</a>
+                <span class="split"></span>
+                <span class="askDate">2天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25316.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">付费文章分成，这个两个相加为1是什么意思呢？</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/787.html" class="tag">付费可见</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered ">
+            2            <small> 回答</small>
+        </div>
+        <div class="views hidden-xs">
+            67            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/37708" data-toggle="popover" data-title="刘sir" data-type="user" data-id="37708">刘sir</a>
+                <span class="split"></span>
+                <span class="askDate">2天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25315.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">购买了插件，不知道怎么使用？怎么样一步步走到上传审核？</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/5337.html" class="tag">插件使用</a>
+                    </div>
+    </div>
+</section>
+                                        <section class="question-list-item">
+    <div class="qa-rank">
+        <div class="answers answered solved">
+            1            <small> 解决</small>
+        </div>
+        <div class="views hidden-xs">
+            56            <small>浏览</small>
+        </div>
+    </div>
+    <div class="summary">
+        <ul class="author list-inline">
+            <li>
+                <a href="https://ask.fastadmin.net/u/32109" data-toggle="popover" data-title="qiutianjia" data-type="user" data-id="32109">qiutianjia</a>
+                <span class="split"></span>
+                <span class="askDate">2天前</span>
+            </li>
+        </ul>
+        <h2 class="title">
+            <a href="https://ask.fastadmin.net/question/25314.html">
+                                <span style="font-weight:normal;text-decoration:none;color:#inherit;">后台为最新版的，安装插件提示后台版本需要升级？</span>
+            </a>
+        </h2>
+        <div class="tags">
+                        <a href="https://ask.fastadmin.net/tag/135.html" class="tag">fastadmin</a>
+                        <a href="https://ask.fastadmin.net/tag/1863.html" class="tag">FastAdmin升级</a>
+                        <a href="https://ask.fastadmin.net/tag/91.html" class="tag">插件</a>
+                    </div>
+    </div>
+</section>
+                    
+                    <div class="pager text-center">
+                    <ul class="pagination"><li><a href="/questions.html?page=1">&laquo;</a></li> <li><a href="/questions.html?page=1">1</a></li><li class="active"><span>2</span></li><li><a href="/questions.html?page=3">3</a></li><li><a href="/questions.html?page=4">4</a></li><li><a href="/questions.html?page=5">5</a></li><li><a href="/questions.html?page=6">6</a></li><li><a href="/questions.html?page=7">7</a></li><li><a href="/questions.html?page=8">8</a></li><li class="disabled"><span>...</span></li><li><a href="/questions.html?page=623">623</a></li><li><a href="/questions.html?page=624">624</a></li> <li><a href="/questions.html?page=3">&raquo;</a></li></ul>                    </div>
+
+                                    </div>
+            </div>
+            <!-- E 首页问题列表 -->
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="article-sidebar">
+                
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">专属推荐</h3>
+    </div>
+    <div class="panel-body">
+                <a href="https://www.fastadmin.net/go/tencent-sk" rel="nofollow" target="_blank" style="background:#007bff;height:50px;line-height:50px;font-size:16px;color:#fff;text-align:center;display:block;cursor:pointer;margin-bottom:10px;">
+            腾讯云服务器1核/2G/1M(99元/1年)        </a>
+                <a href="https://www.fastadmin.net/go/tencent-sk" rel="nofollow" target="_blank" style="background:#ff6a00;height:50px;line-height:50px;font-size:16px;color:#fff;text-align:center;display:block;cursor:pointer;margin-bottom:10px;">
+            腾讯云服务器1核/2G/1M(298元/3年)        </a>
+            </div>
+</div>
+
+<!-- S 热门文章 -->
+<div class="panel panel-default recommend-article">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">1</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/article/323.html" title="一张图解析FastAdmin中的表格列表的功能">一张图解析FastAdmin中的表格列表的功能</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">2</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/article/5567.html" title="一张图解析FastAdmin中的FormBuilder表单生成器">一张图解析FastAdmin中的FormBuilder表单生成器</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">3</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/article/324.html" title="FastAdmin插件开发教程之简明开发教程">FastAdmin插件开发教程之简明开发教程</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">4</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/article/2527.html" title="一张图解析FastAdmin中的弹出窗口的功能">一张图解析FastAdmin中的弹出窗口的功能</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">5</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/article/318.html" title="FastAdmin新人必看、注意事项及常见问题">FastAdmin新人必看、注意事项及常见问题</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">6</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/article/1145.html" title="安装FastAdmin时报当前权限不足，无法写入配置文件database.php (open_basedir 问题）">安装FastAdmin时报当前权限不足，无法写入配置文件database.php (open_basedir 问题）</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">7</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/article/2580.html" title="CMS内容管理插件标签文档">CMS内容管理插件标签文档</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">8</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/article/6505.html" title="1分钟带你入门RequireJs并了解FastAdmin中JS是如何调用的">1分钟带你入门RequireJs并了解FastAdmin中JS是如何调用的</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">9</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/article/8071.html" title="如何正确使用表格组件的formatter属性">如何正确使用表格组件的formatter属性</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">10</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/article/304.html" title="如何在列表操作列区域添加按钮及控制已有按钮显示">如何在列表操作列区域添加按钮及控制已有按钮显示</a>
+            </div>
+        </div>
+            </div>
+</div>
+<!-- E 热门文章 -->
+
+<div class="panel panel-blockimg">
+    <div id="store-recommend" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators" style="margin-bottom:0;bottom:10px !important;">
+                        <li data-target="#store-recommend" data-slide-to="0" class="active"></li>
+                        <li data-target="#store-recommend" data-slide-to="1" class=""></li>
+                        <li data-target="#store-recommend" data-slide-to="2" class=""></li>
+                    </ol>
+
+        <div class="carousel-inner">
+                        <div class="item active">
+                <a href="https://www.fastadmin.net/store/cms.html" title="CMS内容管理系统" target="_blank">
+                    <img src="https://cdn.fastadmin.net/uploads/store/cms-s.png" alt="CMS内容管理系统">
+                </a>
+            </div>
+                        <div class="item ">
+                <a href="https://www.fastadmin.net/store/ask.html" title="知识付费问答社区" target="_blank">
+                    <img src="https://cdn.fastadmin.net/uploads/store/ask-s.png" alt="知识付费问答社区">
+                </a>
+            </div>
+                        <div class="item ">
+                <a href="https://www.fastadmin.net/store/vote.html" title="在线投票系统" target="_blank">
+                    <img src="https://cdn.fastadmin.net/uploads/store/vote-s.png" alt="在线投票系统">
+                </a>
+            </div>
+                    </div>
+    </div>
+    
+</div>
+
+<!-- S 热门问题 -->
+<div class="panel panel-default hot-article">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门问题</h3>
+    </div>
+    <div class="panel-body">
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">1</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/307.html" title="添加的弹窗效果如何修改弹窗窗口的尺寸大小？">添加的弹窗效果如何修改弹窗窗口的尺寸大小？</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">2</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/985.html" title="FastAdmin 开发遇到错误怎么办（关键字：你所浏览的页面暂时无法访问 HTTP ERROR 500 200 404）？">FastAdmin 开发遇到错误怎么办（关键字：你所浏览的页面暂时无法访问 HTTP ERROR 500 200 404）？</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">3</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/1659.html" title="FastAdmin 如何升级更新？">FastAdmin 如何升级更新？</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">4</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/1789.html" title="FastAdmin 学习线路 （F4NNIU 自学时整理的 2020-11-19）">FastAdmin 学习线路 （F4NNIU 自学时整理的 2020-11-19）</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">5</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/1346.html" title="导出 Excel 文件时身份证号变成科学计数法怎么办？">导出 Excel 文件时身份证号变成科学计数法怎么办？</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">6</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/6867.html" title="关联表搜索如何设置？">关联表搜索如何设置？</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">7</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/1762.html" title="根据条件值判断是否显示按钮或显示哪个按钮">根据条件值判断是否显示按钮或显示哪个按钮</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">8</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/16047.html" title="升级1.0.5以后遇到问题">升级1.0.5以后遇到问题</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">9</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/1372.html" title="请教selectPage的问题">请教selectPage的问题</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="num">10</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/5827.html" title="btn-dialog窗口提交后怎么自动关闭，并刷新列表页面">btn-dialog窗口提交后怎么自动关闭，并刷新列表页面</a>
+            </div>
+        </div>
+            </div>
+</div>
+<!-- E 热门问题 -->
+
+<div class="panel panel-blockimg">
+    
+</div>
+
+<!-- S 热门标签 -->
+<div class="panel panel-default hot-tags">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门标签</h3>
+    </div>
+    <div class="panel-body">
+                <a href="https://ask.fastadmin.net/tag/16.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20190309/85d9c92b7fb1d5d7df7b764117643135.png" alt=""> CMS</a>
+                <a href="https://ask.fastadmin.net/tag/5655.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20201030/baaab45aa1daa8dea8e3c3628ac827ac.png" alt=""> shopro商城</a>
+                <a href="https://ask.fastadmin.net/tag/30.html" class="tag">  问答</a>
+                <a href="https://ask.fastadmin.net/tag/52.html" class="tag">  js</a>
+                <a href="https://ask.fastadmin.net/tag/91.html" class="tag">  插件</a>
+                <a href="https://ask.fastadmin.net/tag/19.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20190309/c9d37bc297e9445e61ccd96984c01899.png" alt=""> SelectPage</a>
+                <a href="https://ask.fastadmin.net/tag/3460.html" class="tag">  xshop</a>
+                <a href="https://ask.fastadmin.net/tag/2.html" class="tag">  表格</a>
+                <a href="https://ask.fastadmin.net/tag/135.html" class="tag">  fastadmin</a>
+                <a href="https://ask.fastadmin.net/tag/25.html" class="tag">  bug</a>
+                <a href="https://ask.fastadmin.net/tag/46.html" class="tag">  后台</a>
+                <a href="https://ask.fastadmin.net/tag/175.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20190309/5ebed7288bfc2eb5f3dc1298b28c6298.png" alt=""> 微信支付</a>
+                <a href="https://ask.fastadmin.net/tag/4.html" class="tag">  插件开发</a>
+                <a href="https://ask.fastadmin.net/tag/57.html" class="tag">  api</a>
+                <a href="https://ask.fastadmin.net/tag/101.html" class="tag">  table</a>
+                <a href="https://ask.fastadmin.net/tag/212.html" class="tag">  搜索</a>
+                <a href="https://ask.fastadmin.net/tag/90.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20190309/62a0d873c88b9ad4b102609276e50de6.png" alt=""> 小程序</a>
+                <a href="https://ask.fastadmin.net/tag/1.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20190309/f5a7bb74bd9def11e3170fd882427fbd.png" alt=""> Bootstrap-table</a>
+                <a href="https://ask.fastadmin.net/tag/118.html" class="tag">  权限</a>
+                <a href="https://ask.fastadmin.net/tag/21.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20190309/30768306de8aa03dc42f957720e6cc94.png" alt=""> 富文本编辑器</a>
+                <a href="https://ask.fastadmin.net/tag/1262.html" class="tag">  在线客服</a>
+                <a href="https://ask.fastadmin.net/tag/29.html" class="tag">  CMS小程序</a>
+                <a href="https://ask.fastadmin.net/tag/15.html" class="tag">  弹窗</a>
+                <a href="https://ask.fastadmin.net/tag/13.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20190309/3ba009c13bff6f75026670f15e57d906.png" alt=""> CRUD</a>
+                <a href="https://ask.fastadmin.net/tag/1439.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20201030/d7fe82ff7c5e3f76b4dc01e2ed3f9ee0.png" alt=""> 问答社区</a>
+                <a href="https://ask.fastadmin.net/tag/210.html" class="tag">  图片上传</a>
+                <a href="https://ask.fastadmin.net/tag/5672.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20201030/baaab45aa1daa8dea8e3c3628ac827ac.png" alt=""> shopro</a>
+                <a href="https://ask.fastadmin.net/tag/581.html" class="tag">  前端</a>
+                <a href="https://ask.fastadmin.net/tag/665.html" class="tag">  Nkeditor</a>
+                <a href="https://ask.fastadmin.net/tag/11.html" class="tag">  后台登录</a>
+                <a href="https://ask.fastadmin.net/tag/10.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20190309/d109f6c054be5251bd83119711e087b6.png" alt=""> 数据库</a>
+                <a href="https://ask.fastadmin.net/tag/935.html" class="tag">  编辑器</a>
+                <a href="https://ask.fastadmin.net/tag/161.html" class="tag">  文件上传</a>
+                <a href="https://ask.fastadmin.net/tag/261.html" class="tag">  后台开发</a>
+                <a href="https://ask.fastadmin.net/tag/1636.html" class="tag"> <img src="https://cdn.fastadmin.net{{v.png(uploading...)}}" alt=""> 投票</a>
+                <a href="https://ask.fastadmin.net/tag/172.html" class="tag">  支付</a>
+                <a href="https://ask.fastadmin.net/tag/27.html" class="tag">  OSS</a>
+                <a href="https://ask.fastadmin.net/tag/14.html" class="tag"> <img src="https://cdn.fastadmin.net/uploads/20190309/afb1c3be51a92f96a0ae176c74a430b6.png" alt=""> RequireJS</a>
+                <a href="https://ask.fastadmin.net/tag/51.html" class="tag">  登录</a>
+                <a href="https://ask.fastadmin.net/tag/142.html" class="tag">  上传图片</a>
+                <a href="https://ask.fastadmin.net/tag/198.html" class="tag">  上传</a>
+                <a href="https://ask.fastadmin.net/tag/146.html" class="tag">  阿里云oss</a>
+                <a href="https://ask.fastadmin.net/tag/102.html" class="tag">  菜单</a>
+                <a href="https://ask.fastadmin.net/tag/99.html" class="tag">  按钮</a>
+                <a href="https://ask.fastadmin.net/tag/168.html" class="tag">  导出</a>
+                <a href="https://ask.fastadmin.net/tag/568.html" class="tag">  七牛云</a>
+                <a href="https://ask.fastadmin.net/tag/274.html" class="tag">  关联模型</a>
+                <a href="https://ask.fastadmin.net/tag/143.html" class="tag">  自定义按钮</a>
+                <a href="https://ask.fastadmin.net/tag/152.html" class="tag">  fieldlist</a>
+                <a href="https://ask.fastadmin.net/tag/12.html" class="tag">  导入</a>
+            </div>
+</div>
+<!-- E 热门标签 -->
+
+<!-- S 等待解答 -->
+<div class="panel panel-default recommend-article">
+    <div class="panel-heading">
+        <h3 class="panel-title">等待解答</h3>
+    </div>
+    <div class="panel-body">
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="tag">问</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/25347.html" title="H5怎么配置某指定栏目下所有产品页面">H5怎么配置某指定栏目下所有产品页面</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="tag">问</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/25337.html" title="如何解决composer依赖PHP版本不一致的问题?">如何解决composer依赖PHP版本不一致的问题?</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="tag">问</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/25332.html" title="离线插件安装报错无法安装">离线插件安装报错无法安装</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="tag">问</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/25328.html" title="写入site.php文件格式错误">写入site.php文件格式错误</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="tag">问</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/25291.html" title="在做小程序的时候 token相关">在做小程序的时候 token相关</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="tag">问</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/25290.html" title="编辑页面数据展示不出来">编辑页面数据展示不出来</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="tag">问</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/25276.html" title="一键生成API文档 接口URL无效">一键生成API文档 接口URL无效</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="tag">问</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/25273.html" title="umeditor在文章中的a标签加rel=nofollow会被过滤掉，请问怎么办呢？">umeditor在文章中的a标签加rel=nofollow会被过滤掉，请问怎么办呢？</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="tag">问</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/25255.html" title="Status Code: 503 Service is temporarily unavailable">Status Code: 503 Service is temporarily unavailable</a>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <span class="tag">问</span>
+            </div>
+            <div class="media-body">
+                <a class="link-dark" href="https://ask.fastadmin.net/question/25247.html" title="DIY统计插件工具中的统计类型支持哪些？">DIY统计插件工具中的统计类型支持哪些？</a>
+            </div>
+        </div>
+            </div>
+</div>
+<!-- E 等待解答 -->
+
+<!-- S 推荐专家 -->
+<div class="panel panel-default panel-users">
+    <div class="panel-heading">
+        <h3 class="panel-title">推荐专家</h3>
+    </div>
+    <div class="panel-body">
+                <div class="media media-number">
+            <div class="media-left">
+                <a class="link-dark" href="https://ask.fastadmin.net/u/1" title="Karson"><img class="media-object img-circle img-small" alt="Karson" src="https://cdn.fastadmin.net/uploads/avatar/e532595a22c24f908248f5c7bb8f160d.png"></a>
+            </div>
+            <div class="media-body">
+                <div class="media-heading"><a class="link-dark" href="https://ask.fastadmin.net/u/1" title="Karson">Karson</a></div>
+                <div class="text-muted">7518个答案 4477次被采纳</div>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <a class="link-dark" href="https://ask.fastadmin.net/u/8" title="F4NNIU"><img class="media-object img-circle img-small" alt="F4NNIU" src="https://cdn.fastadmin.net/uploads/avatar/861a2c989b88bc3376219a32c10a28a5.jpg"></a>
+            </div>
+            <div class="media-body">
+                <div class="media-heading"><a class="link-dark" href="https://ask.fastadmin.net/u/8" title="F4NNIU">F4NNIU</a></div>
+                <div class="text-muted">1469个答案 396次被采纳</div>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <a class="link-dark" href="https://ask.fastadmin.net/u/2015" title="myIvan"><img class="media-object img-circle img-small" alt="myIvan" src="https://cdn.fastadmin.net/uploads/avatar/ad821f3c2bc90c4dfc693dace0d660a4.jpg"></a>
+            </div>
+            <div class="media-body">
+                <div class="media-heading"><a class="link-dark" href="https://ask.fastadmin.net/u/2015" title="myIvan">myIvan</a></div>
+                <div class="text-muted">740个答案 331次被采纳</div>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <a class="link-dark" href="https://ask.fastadmin.net/u/846" title="小星"><img class="media-object img-circle img-small" alt="小星" src="https://cdn.fastadmin.net/uploads/avatar/71938a19c2974ae1d833c2b0d4eaddd1.jpg"></a>
+            </div>
+            <div class="media-body">
+                <div class="media-heading"><a class="link-dark" href="https://ask.fastadmin.net/u/846" title="小星">小星</a></div>
+                <div class="text-muted">679个答案 381次被采纳</div>
+            </div>
+        </div>
+                <div class="media media-number">
+            <div class="media-left">
+                <a class="link-dark" href="https://ask.fastadmin.net/u/7346" title="熊本污"><img class="media-object img-circle img-small" alt="熊本污" src="https://cdn.fastadmin.net/uploads/avatar/34135704658914f45619e735c6cc6abc.jpg"></a>
+            </div>
+            <div class="media-body">
+                <div class="media-heading"><a class="link-dark" href="https://ask.fastadmin.net/u/7346" title="熊本污">熊本污</a></div>
+                <div class="text-muted">437个答案 176次被采纳</div>
+            </div>
+        </div>
+            </div>
+</div>
+<!-- E 推荐专家 -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <ul class="col-xs-6 col-md-3">
+                <li class="f-tit">FastAdmin</li>
+                <li><a href="https://www.fastadmin.net/aboutus.html">关于我们</a></li>
+                <li><a href="https://www.fastadmin.net/contactus.html">联系我们</a></li>
+                <li><a href="https://www.fastadmin.net/sitemap.html">站点地图</a></li>
+                <li><a href="https://www.fastadmin.net/joinus.html">加入我们</a></li>
+            </ul>
+            <ul class="col-xs-6 col-md-3">
+                <li class="f-tit">商务合作</li>
+                <li><a href="https://www.fastadmin.net/solutions.html">解决方案</a></li>
+                <li><a href="https://www.fastadmin.net/cooperation.html">广告投放</a></li>
+                <li><a href="https://www.fastadmin.net/cooperation.html">业务合作</a></li>
+                <li><a href="https://www.fastadmin.net/cooperation.html">赞助投资</a></li>
+            </ul>
+            <ul class="col-xs-6 col-md-3">
+                <li class="f-tit">服务支持</li>
+                <li><a href="https://www.fastadmin.net/news.html?category=23">官方动态</a></li>
+                <li><a href="https://www.fastadmin.net/page/addon-agreement.html">插件协议</a></li>
+                <li><a href="https://www.fastadmin.net/page/user-agreement.html">用户协议</a></li>
+                <li><a href="https://www.fastadmin.net/developer.html">开发者入驻</a></li>
+            </ul>
+            <ul class="col-xs-6 col-md-3">
+                <li class="f-tit">联系我们</li>
+                <li>深圳极速创想科技有限公司</li>
+                <li>邮箱: <a href="mailto:karson@fastadmin.net" rel="nofollow">karson@fastadmin.net</a></li>
+                <li><a href="https://www.fastadmin.net/report.html">盗版举报 | 侵权举报</a></li>
+                <li>QQ交流群: <a href="javascript:" rel="nofollow" target="_blank">1群~5群(满)</a> | <a href="https://jq.qq.com/?_wv=1027&k=54I6mts" rel="nofollow" target="_blank">6群(新)</a></li>
+            </ul>
+        </div>
+    </div>
+    <p class="address">
+        Copyright&nbsp;©&nbsp;2017-2020 fastadmin.net All rights reserved FastAdmin 版权所有
+        <a href="https://www.fastadmin.net/news/69.html" target="_blank">FastAdmin著作权</a>
+        <a href="http://www.beian.miit.gov.cn" target="_blank">粤ICP备15054802号-4</a>
+        <a href="http://www.beian.gov.cn" rel="nofollow" target="_blank"><img src="https://cdn.fastadmin.net/assets/img/beian.png" alt=""> 粤公网安备 44031002000255号</a>
+    </p>
+</footer>
+
+<div class="floatbar" style="margin-top: -220px;">
+
+    <div class="floatbar-item">
+        <a href="https://ask.fastadmin.net/question/post.html" class="floatbar-btn">
+            <i class="fa fa-pencil"></i>
+            <p>
+                发布<br>
+                问题
+            </p>
+        </a>
+    </div>
+        <div class="floatbar-item floatbtn-item-top" style="display:none;">
+        <a href="javascript:" class="floatbar-btn backtotop">
+            <i class="fa fa-chevron-up"></i>
+            <p>
+                回到<br>
+                顶部
+            </p>
+        </a>
+    </div>
+</div>
+
+
+</body>
 </html>
